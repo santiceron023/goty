@@ -53,7 +53,7 @@ app.post('/goty/:id', async (req, res) => {
     if (!gameSnap.exists) {
         res.status(404).json(
             {
-                ok: "false",
+                ok: false,
                 mensaje: `no existe juego con id : ${id}`
             }
         )
@@ -67,7 +67,7 @@ app.post('/goty/:id', async (req, res) => {
 
         res.json({
             ok: true,
-            mensaje: `gracias por tu voto a ${oldData.nombre}`
+            mensaje: `gracias por tu voto a ${oldData.name}`
         });
     }
 
