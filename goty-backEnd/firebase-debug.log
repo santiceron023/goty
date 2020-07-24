@@ -1,0 +1,37 @@
+[debug] [2020-01-20T19:28:24.403Z] ----------------------------------------------------------------------
+[debug] [2020-01-20T19:28:24.406Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\santiago.ceron\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-01-20T19:28:24.406Z] CLI Version:   7.12.1
+[debug] [2020-01-20T19:28:24.406Z] Platform:      win32
+[debug] [2020-01-20T19:28:24.406Z] Node Version:  v12.13.1
+[debug] [2020-01-20T19:28:24.408Z] Time:          Mon Jan 20 2020 14:28:24 GMT-0500 (Colombia Standard Time)
+[debug] [2020-01-20T19:28:24.408Z] ----------------------------------------------------------------------
+[debug] [2020-01-20T19:28:24.408Z] 
+[debug] [2020-01-20T19:28:24.421Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-20T19:28:24.422Z] > authorizing via signed-in user
+[debug] [2020-01-20T19:28:24.422Z] [iam] checking project firestore-angular-67430 for permissions ["firebase.projects.get"]
+[debug] [2020-01-20T19:28:24.424Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/firestore-angular-67430:testIamPermissions  
+
+[debug] [2020-01-20T19:28:24.816Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-20T19:28:24.819Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/firestore-angular-67430  
+ 
+[debug] [2020-01-20T19:28:25.169Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\santiago.ceron\Documents\WorkSpaces\Angular\New folder\goty-backEnd'...
+[info] 
+[warn] !  Your requested "node" version "8" doesn't match your global version "12"
+[info] +  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\Users\santiago.ceron\Documents\WorkSpaces\Angular\New folder\goty-backEnd\functions" for Cloud Functions...
+[debug] [2020-01-20T19:28:27.730Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-01-20T19:28:27.730Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-01-20T19:28:27.731Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-01-20T19:28:27.731Z] [worker-~diagnostic~-0aa72400-314e-467e-b4e7-6a12ba48f4f6]: Assigning socketPath: \\?\pipe\C:\Users\santiago.ceron\Documents\WorkSpaces\Angular\New folder\goty-backEnd\functions\13076
+[debug] [2020-01-20T19:28:27.732Z] [worker-~diagnostic~-0aa72400-314e-467e-b4e7-6a12ba48f4f6]: BUSY
+[debug] [2020-01-20T19:28:28.304Z] [runtime-status] [13076] Functions runtime initialized. {"cwd":"C:\\Users\\santiago.ceron\\Documents\\WorkSpaces\\Angular\\New folder\\goty-backEnd\\functions","node_version":"12.13.1"}
+[debug] [2020-01-20T19:28:28.305Z] [runtime-status] [13076] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-01-20T19:28:28.309Z] [runtime-status] [13076] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.1","resolution":"C:\\Users\\santiago.ceron\\Documents\\WorkSpaces\\Angular\\New folder\\goty-backEnd\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-20T19:28:28.311Z] [runtime-status] [13076] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\santiago.ceron\\Documents\\WorkSpaces\\Angular\\New folder\\goty-backEnd\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-20T19:28:28.312Z] [runtime-status] [13076] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\santiago.ceron\\Documents\\WorkSpaces\\Angular\\New folder\\goty-backEnd\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[info] +  functions[helloWorld]: http function initialized (http://localhost:5000/firestore-angular-67430/us-central1/helloWorld).
+[info] +  functions[getGOTY]: http function initialized (http://localhost:5000/firestore-angular-67430/us-central1/getGOTY).
+[info] +  functions[api]: http function initialized (http://localhost:5000/firestore-angular-67430/us-central1/api).
+[debug] [2020-01-20T19:28:29.325Z] [worker-~diagnostic~-0aa72400-314e-467e-b4e7-6a12ba48f4f6]: IDLE
